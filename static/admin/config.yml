@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: nac-39/gatsby-and-cms-test
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
@@ -8,7 +9,6 @@ backend:
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
 
-local_backend: true
 media_folder: static/img
 public_folder: /img
 

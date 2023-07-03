@@ -11,6 +11,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+show_preview_links: true
 
 collections:
   - name: "blog"
@@ -18,6 +19,7 @@ collections:
     folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: blog/{{slug}} # slug is only the url-safe identifier field
     fields:
       - {
           label: "Template Key",

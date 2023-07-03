@@ -2,6 +2,7 @@ backend:
   name: github
   repo: nac-39/gatsby-and-cms-test
   branch: main
+  preview_context: deployment
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
